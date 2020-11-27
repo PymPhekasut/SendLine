@@ -18,18 +18,7 @@ You may heck Python version before used with pip -V
 1. Go to https://pypi.org/project/songline/
 2. Install: pip install songline
 
-
-from songline import Sendline
-
-token = 'FM9m4KGs9rsVRzpTEZCGwdbQn5WcBOGE6CDElqSV3fF' #get from Line notify token
-
-messenger = Sendline(token)
-
-messenger.sendtext('Hi, how are you?') #send text
-messenger.sticker(8,1) #send sticker
-messenger.sendimage('https://post.greatist.com/wp-content/uploads/sites/3/2020/02/322868_1100-1100x628.jpg') #send picture
-
-Please note: fine stickers code from https://notify-bot.line.me/doc/en/ or  http://cons-robotics.com/LINEAPI/sticker.pdf
+Please note: find stickers code from https://notify-bot.line.me/doc/en/ or  http://cons-robotics.com/LINEAPI/sticker.pdf
 
 Credit from Uncle Engineer
 
